@@ -1,0 +1,42 @@
+/*shared style*/
+body{
+    font-family: "Mulish", sans-serif;
+}
+.orange{
+    color: #FF5400;
+}
+/*nav section*/
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    padding-right: 6px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 135px;
+    margin-right: 135px;
+    align-items: center;
+    margin-top: 52px;
+}
+.menu{
+    display: flex;
+    text-decoration: none;
+}
+.menu li{
+    text-decoration: none;
+    padding-right: 44px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    
+}
+
+.title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
