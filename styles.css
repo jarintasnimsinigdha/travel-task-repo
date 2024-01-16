@@ -307,3 +307,63 @@ list{
     }
 
 }
+
+.part1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 650px;
+    height: 300px;
+    padding: 12px;
+}
+.part2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 650px;
+    height: 300px;
+    padding: 12px;
+
+}
+.part3{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 284px;
+    padding: 12px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 24px;
+    width: 100%;
+    margin-top: 40px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width:576px) {
+    .Destination{
+        width: 400px;
+        text-align: center;
+        justify-content: center;
+    }
+    main{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .container,.container1{
+        flex-direction: column;
+    }
+    .part1,.part2,.part3{
+        width: 440px;
+        height: 300px;
+    }
+
+}
