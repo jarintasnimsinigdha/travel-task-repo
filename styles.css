@@ -2,6 +2,12 @@
 body {
     font-family: "Mulish", sans-serif;
 }
+@media screen and (maw-width:576px) {
+    body {
+        font-family: "Mulish", sans-serif;
+        width: 375px;
+    }
+}
 
 .orange {
     color: #FF5400;
@@ -47,7 +53,7 @@ main{
 .head {
     display: flex;
     justify-content: space-between;
-    
+    gap: 300px;
     align-items: center;
     margin-top: 52px;
     
@@ -74,12 +80,39 @@ nav ul li a {
     font-size: 40px;
     font-weight: 800;
 }
+@media screen and (max-width:576px) {
+    .logo{
+        width: 375px;
+        height: 64px;
+    }
+    .menu li{
+        
+        visibility: hidden;
+    }
+    .menu{
+        background-image: url(Images/Frame.png);
+        background-repeat: no-repeat;
+        
 
+        
+
+    }
+    header{
+        margin-left: 15px;
+        margin-right: 15px;
+       
+    }
+    .title{
+        font-size: smaller;
+    }
+    .head{
+        gap: 280px;
+    }
+}
 /*banner section*/
 .banner {
     text-align: center;
     justify-content: center;
-    
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
     background-position: center;
