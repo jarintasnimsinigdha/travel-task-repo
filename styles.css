@@ -2,12 +2,7 @@
 body {
     font-family: "Mulish", sans-serif;
 }
-@media screen and (maw-width:576px) {
-    body {
-        font-family: "Mulish", sans-serif;
-        width: 375px;
-    }
-}
+
 
 .orange {
     color: #FF5400;
@@ -31,15 +26,18 @@ body {
     border: none;
     border-radius: 5px;
 }
-header{
-   justify-content: center;
-   margin-left: 125px;
-   margin-right: 125px;
-}
-main{
+
+header {
+    justify-content: center;
     margin-left: 125px;
-   margin-right: 125px;
+    margin-right: 125px;
 }
+
+main {
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
 /*nav section*/
 .logo {
     display: flex;
@@ -56,7 +54,7 @@ main{
     gap: 300px;
     align-items: center;
     margin-top: 52px;
-    
+
 }
 
 .menu {
@@ -80,35 +78,42 @@ nav ul li a {
     font-size: 40px;
     font-weight: 800;
 }
+
 @media screen and (max-width:576px) {
-    .logo{
+    .logo {
         width: 375px;
         height: 64px;
     }
-    .menu li{
-        
+
+    .menu li {
+
         visibility: hidden;
     }
-    .menu{
+
+    .menu {
         background-image: url(Images/Frame.png);
         background-repeat: no-repeat;
-        
 
-        
+
+
 
     }
-    header{
+
+    header {
         margin-left: 15px;
         margin-right: 15px;
-       
+
     }
-    .title{
+
+    .title {
         font-size: smaller;
     }
-    .head{
+
+    .head {
         gap: 280px;
     }
 }
+
 /*banner section*/
 .banner {
     text-align: center;
@@ -120,7 +125,7 @@ nav ul li a {
     height: 100%;
     border-radius: 18px;
     background-size: cover;
-    
+
 }
 
 .box {
@@ -141,13 +146,13 @@ nav ul li a {
     padding: 16px;
     align-items: flex-start;
     gap: 24px;
-    }
+}
 
 .banner-title {
     color: #FFF;
     font-size: 64px;
     font-weight: 800;
-    
+
 }
 
 .banner-content {
@@ -156,58 +161,68 @@ nav ul li a {
     font-size: 16px;
     font-weight: 400;
     padding-top: 15px;
-    
+
 }
-.banner-text{
+
+.banner-text {
     text-align: center;
     justify-content: center;
     padding-bottom: 30px;
     padding-top: 90px;
 
 }
+
 @media screen and (max-width:576px) {
-    header{
+    header {
         margin-left: 15px;
         margin-right: 15px;
     }
-    .banner-title{
-       font-size: 25px;
+
+    .banner-title {
+        font-size: 25px;
     }
-    .banner-content{
+
+    .banner-content {
         font-size: 12px;
     }
-    .banner{
-       padding-left: 15px;
-       padding-right: 15px;
+
+    .banner {
+        padding-left: 15px;
+        padding-right: 15px;
     }
-    .buttons{
-    
+
+    .buttons {
+
         flex-direction: column;
     }
 }
 
- /*popular tour*/
-.Tours{
+/*popular tour*/
+.Tours {
     color: #131318;
 
     font-size: 40px;
     font-weight: 800;
 }
-list{
-    text-align:left;
+
+list {
+    text-align: left;
     color: rgba(19, 19, 24, 0.70);
     font-size: 15px;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px;
+    /* 162.5% */
 }
-.Read-More{
+
+.Read-More {
     color: #FFF;
     text-align: center;
     font-size: 18px;
     font-weight: 800;
     padding: 8px 15px;
 }
-.popular-tours{
+
+.popular-tours {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
@@ -215,33 +230,37 @@ list{
 }
 
 @media screen and (max-width:576px) {
-    .popular-tours{
-      flex-direction: column; 
-      
+    .popular-tours {
+        flex-direction: column;
+
     }
-    .popular-tours-text{
+
+    .popular-tours-text {
         padding-bottom: 25px;
         width: 420px;
-        text-align:left;
+        text-align: left;
     }
-    main{
+
+    main {
         margin-left: 15px;
         margin-right: 15px;
     }
 
-    .list-img{
+    .list-img {
         width: 450px;
         height: 430px;
 
     }
 }
-.Destination{
+
+.Destination {
     padding-top: 50px;
     text-align: center;
     justify-content: center;
-    
+
 }
-.place{
+
+.place {
     color: #FFF;
     text-align: center;
     justify-content: center;
@@ -250,7 +269,7 @@ list{
     margin-top: 400px;
 }
 
-.place1{
+.place1 {
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 5.png), lightgray 50%;
     background-size: cover;
@@ -259,24 +278,27 @@ list{
     height: 300px;
     margin-right: 15px;
 }
-.place2{
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 8.png), lightgray -101px -108.075px / 135.253% 172.05% ;
+
+.place2 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 8.png), lightgray -101px -108.075px / 135.253% 172.05%;
     background-size: cover;
     background-repeat: no-repeat;
     width: 650px;
     height: 300px;
     border-radius: 16px;
 }
-.place3{
+
+.place3 {
     width: 450px;
     height: 286px;
     border-radius: 16px;
     margin-right: 15px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 6.png), lightgray 50% ;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 6.png), lightgray 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.place4{
+
+.place4 {
     width: 500px;
     height: 286px;
     border-radius: 16px;
@@ -285,15 +307,17 @@ list{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.place5{
+
+.place5 {
     width: 274px;
     height: 286px;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 9.png), lightgray 50% ;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 9.png), lightgray 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.place6{
+
+.place6 {
     width: 550px;
     height: 300px;
     border-radius: 16px;
@@ -302,38 +326,56 @@ list{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.place7{
+
+.place7 {
     width: 700px;
     height: 300px;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 10.png), lightgray 50% ;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 10.png), lightgray 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.row1 , .row2 ,.row3{
+
+.row1,
+.row2,
+.row3 {
     display: flex;
-    padding-bottom:15px ;
+    padding-bottom: 15px;
 }
+
 @media screen and (max-width:576px) {
-    .Destination{
+    .Destination {
         width: 400px;
         text-align: center;
         justify-content: center;
     }
-    main{
+
+    main {
         margin-left: 15px;
         margin-right: 15px;
     }
-    .row1 , .row2 ,.row3{
+
+    .row1,
+    .row2,
+    .row3 {
         flex-direction: column;
         width: 450px;
-        
+
     }
-    main{
+
+    main {
         margin-left: 15px;
         margin-right: 15px;
     }
-    .place1,.place2,.place3,.place4,.place5,.place6,.place6,.place7{
+
+    .place1,
+    .place2,
+    .place3,
+    .place4,
+    .place5,
+    .place6,
+    .place6,
+    .place7 {
         width: 450px;
         height: 500px;
         margin-bottom: 20px;
@@ -341,7 +383,7 @@ list{
 
 }
 
-.part1{
+.part1 {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
@@ -349,7 +391,8 @@ list{
     height: 300px;
     padding: 12px;
 }
-.part2{
+
+.part2 {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
@@ -358,16 +401,18 @@ list{
     padding: 12px;
 
 }
-.part3{
+
+.part3 {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     width: 573px;
     height: 284px;
     padding: 12px;
-    
+
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-between;
     gap: 24px;
@@ -375,28 +420,126 @@ list{
     width: 100%;
     margin-top: 40px;
 }
-.container1{
+
+.container1 {
     display: flex;
     justify-content: center;
-    
+
 }
 
 @media screen and (max-width:576px) {
-    .Destination{
+    .Destination {
         width: 400px;
         text-align: center;
         justify-content: center;
     }
-    main{
+
+    main {
         margin-left: 15px;
         margin-right: 15px;
     }
-    .container,.container1{
+
+    .container,
+    .container1 {
         flex-direction: column;
     }
-    .part1,.part2,.part3{
+
+    .part1,
+    .part2,
+    .part3 {
         width: 440px;
         height: 300px;
     }
 
+}
+
+.mini-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.list2 {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    width: 100%;
+}
+
+.btn1 {
+    border-radius: 4px;
+    background: #FF5400;
+    border: none;
+    margin-top: 6px;
+}
+
+.Newsletter {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    background: #FFF;
+    padding: 20px;
+    padding-top: 70px;
+
+}
+
+.com {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.up {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    
+}
+
+.discount {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 280px;
+    height: 100px;
+    transform: rotate(-19.628deg);
+    position: absolute;
+    bottom: 2px;
+    right: 4px;
+}
+.full-newspaper{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top: 50px;
+
+}
+.discount-img{
+    border-radius: 16px;
+    background: url(Images/Rectangle\ 8\ \(1\).png), lightgray 50% ;
+     background-repeat: no-repeat;
+    background-size: cover;
+     transform: rotate(0deg);
+     width: 600px;
+     height: 420px;
+}
+@media  screen and (max-width:576px) {
+    .full-newspaper{
+        display: block;
+    
+    }
+    .discount-img{
+        width: 500px;
+        height: 390px;
+        margin-top: 40px;
+    }
+    
 }
