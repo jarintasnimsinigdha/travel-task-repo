@@ -195,9 +195,115 @@ list{
         margin-left: 15px;
         margin-right: 15px;
     }
+
     .list-img{
         width: 450px;
         height: 430px;
 
     }
+}
+.Destination{
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.place{
+    color: #FFF;
+    text-align: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 400px;
+}
+
+.place1{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 5.png), lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 650px;
+    height: 300px;
+    margin-right: 15px;
+}
+.place2{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 8.png), lightgray -101px -108.075px / 135.253% 172.05% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 650px;
+    height: 300px;
+    border-radius: 16px;
+}
+.place3{
+    width: 450px;
+    height: 286px;
+    border-radius: 16px;
+    margin-right: 15px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 6.png), lightgray 50% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.place4{
+    width: 500px;
+    height: 286px;
+    border-radius: 16px;
+    margin-right: 15px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 7.png), lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.place5{
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 9.png), lightgray 50% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.place6{
+    width: 550px;
+    height: 300px;
+    border-radius: 16px;
+    margin-right: 15px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 11.png), lightgray 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.place7{
+    width: 700px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(Images/Rectangle\ 10.png), lightgray 50% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.row1 , .row2 ,.row3{
+    display: flex;
+    padding-bottom:15px ;
+}
+@media screen and (max-width:576px) {
+    .Destination{
+        width: 400px;
+        text-align: center;
+        justify-content: center;
+    }
+    main{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .row1 , .row2 ,.row3{
+        flex-direction: column;
+        width: 450px;
+        
+    }
+    main{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .place1,.place2,.place3,.place4,.place5,.place6,.place6,.place7{
+        width: 450px;
+        height: 500px;
+        margin-bottom: 20px;
+    }
+
 }
