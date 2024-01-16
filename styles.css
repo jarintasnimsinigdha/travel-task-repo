@@ -1,42 +1,152 @@
 /*shared style*/
-body{
+body {
     font-family: "Mulish", sans-serif;
 }
-.orange{
+
+.orange {
     color: #FF5400;
 }
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 50px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.btn-primary {
+    background: #FF5400;
+    border: none;
+    border-radius: 5px;
+}
+header{
+   justify-content: center;
+   margin-left: 125px;
+   margin-right: 125px;
+}
+
 /*nav section*/
-.logo{
+.logo {
     display: flex;
     align-items: center;
 }
-.logo-img{
+
+.logo-img {
     padding-right: 6px;
 }
-.head{
+
+.head {
     display: flex;
     justify-content: space-between;
-    margin-left: 135px;
-    margin-right: 135px;
+    
     align-items: center;
     margin-top: 52px;
+    
 }
-.menu{
+
+.menu {
     display: flex;
     text-decoration: none;
 }
-.menu li{
+
+.menu li {
     text-decoration: none;
     padding-right: 44px;
     list-style-type: none;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
-    
+
 }
 
-.title{
+.title {
     color: #131318;
     font-size: 40px;
     font-weight: 800;
 }
+
+/*banner section*/
+.banner {
+    text-align: center;
+    justify-content: center;
+    
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    background-size: cover;
+    
+}
+
+.box {
+    width: 174px;
+    height: 52px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFFFFF;
+    color: rgba(9, 9, 9, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.buttons {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    }
+
+.banner-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    
+}
+
+.banner-content {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 15px;
+    
+}
+.banner-text{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 90px;
+
+}
+@media screen and (max-width:576px) {
+    header{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .banner-title{
+       font-size: 25px;
+    }
+    .banner-content{
+        font-size: 12px;
+    }
+    .banner{
+       padding-left: 15px;
+       padding-right: 15px;
+    }
+    .buttons{
+    
+        flex-direction: column;
+    }
+}
+    
