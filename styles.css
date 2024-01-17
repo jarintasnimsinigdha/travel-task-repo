@@ -142,7 +142,7 @@ nav ul li a {
         gap: 10px;
     }
 
-
+}
 
 /*banner section*/
 .banner {
@@ -648,7 +648,8 @@ footer{
    padding-bottom: 40px; ;
    justify-content: center;
 }
-@media screen and ( max-width:600px) {
+
+@media screen and (max-width:600px){
     .footer-text{
         flex-direction: column;
         display: flex;
@@ -662,4 +663,4 @@ footer{
     footer{
         width: 600px;
     }
- }
+}
