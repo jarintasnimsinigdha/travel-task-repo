@@ -95,7 +95,7 @@ nav ul li a {
         background-image: url(Images/Frame.png);
         background-repeat: no-repeat;
         background-position: right;
-        
+
     }
 
     header {
@@ -112,20 +112,23 @@ nav ul li a {
         gap: 40px;
     }
 }
-@media screen and (min-width:768px) and (max-width:992px){
+
+@media screen and (min-width:768px) and (max-width:992px) {
     .logo {
         width: 200px;
         height: 80px;
     }
+
     header {
         margin-left: 90px;
         margin-right: 90px;
 
     }
-    .title{
+
+    .title {
         font-size: medium;
     }
-    
+
     .menu li {
 
         visibility: hidden;
@@ -136,8 +139,9 @@ nav ul li a {
         background-image: url(Images/Frame.png);
         background-repeat: no-repeat;
         background-position: right;
-        
+
     }
+
     .head {
         gap: 10px;
     }
@@ -220,9 +224,11 @@ nav ul li a {
         padding-left: 15px;
         padding-right: 15px;
         width: 550px;
-        
+
     }
-    .box,.btn-primary{
+
+    .box,
+    .btn-primary {
         width: 255px;
         height: 52px;
     }
@@ -234,15 +240,18 @@ nav ul li a {
         padding: 16px;
     }
 }
-@media screen and (min-width:768px) and (max-width:992px){
-    .banner{
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .banner {
         width: 100%;
     }
+
     header {
         margin-left: 90px;
         margin-right: 90px;
 
     }
+
     .buttons {
         width: 287px;
         align-items: center;
@@ -285,9 +294,9 @@ list {
 }
 
 @media screen and (max-width:600px) {
-    .popular-tours{
+    .popular-tours {
         flex-direction: column;
-    }    
+    }
 
     .popular-tours-text {
         padding-bottom: 25px;
@@ -305,20 +314,64 @@ list {
         height: 530px;
 
     }
+
     .Read-More {
-        padding: 0px ;
-       
+        padding: 0px;
+
     }
 }
-@media screen and (min-width:768px) and (max-width:992px){
-    .popular-tours{
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .popular-tours {
         flex-direction: column;
     }
+
     .list-img {
         width: 800px;
         height: 600px;
         padding-top: 30px;
 
+    }
+}
+
+/*optional1*/
+.mountain {
+    color: #FFF;
+    text-align: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 16px;
+    width: 610px;
+    height: 424px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%), url(Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Watch{
+    color: #FFF;
+    position: relative;
+    top: 200px;
+}
+.get-lost{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+@media screen and (max-width:600px){
+    .get-lost{
+        flex-direction: column;
+    }
+    main {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .mountain{
+        width: 570px;
+        height: 500px;
+    }
+    .lost-text{
+        width: 550px;
     }
 }
 
@@ -331,11 +384,12 @@ list {
 
 .place {
     color: #FFF;
-    text-align: center;
-    justify-content: center;
+    position: absolute;
+    
     font-size: 28px;
     font-weight: 800;
-    margin-top: 400px;
+    padding-top: 90px;
+    padding-left: 120px;
 }
 
 .place1 {
@@ -416,14 +470,12 @@ list {
     .Destination {
         text-align: center;
         padding-left: 90px;
-        padding-bottom:30px ;
+        padding-bottom: 30px;
         justify-content: center;
         width: 550px;
 
-       
-
     }
-    
+
     main {
         margin-left: 15px;
         margin-right: 15px;
@@ -577,7 +629,7 @@ list {
     font-size: 25px;
     font-weight: 800;
     text-align: center;
-    
+
 }
 
 .discount {
@@ -590,7 +642,8 @@ list {
     bottom: 2px;
     right: 4px;
 }
-.full-newspaper{
+
+.full-newspaper {
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -598,69 +651,79 @@ list {
     margin-bottom: 60px;
 
 }
-.discount-img{
+
+.discount-img {
     border-radius: 16px;
-    background: url(Images/Rectangle\ 8\ \(1\).png), lightgray 50% ;
-     background-repeat: no-repeat;
+    background: url(Images/Rectangle\ 8\ \(1\).png), lightgray 50%;
+    background-repeat: no-repeat;
     background-size: cover;
-     transform: rotate(0deg);
-     width: 600px;
-     height: 420px;
+    transform: rotate(0deg);
+    width: 600px;
+    height: 420px;
 }
-@media  screen and (max-width:600px) {
-    .full-newspaper{
+
+@media screen and (max-width:600px) {
+    .full-newspaper {
         flex-direction: column;
     }
-    .discount-img{
+
+    .discount-img {
         width: 550px;
         height: 620px;
         margin-top: 40px;
     }
-    .Newsletter{
+
+    .Newsletter {
         width: 530px;
         height: 300px;
 
     }
 }
 
-.title2{
+.title2 {
     color: #131318;
     font-size: 15px;
     font-weight: 800;
-    
+
 }
-.orange2{
+
+.orange2 {
     color: #FF5400;
 }
 
-.footer-class{
+.footer-class {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 65px;
 }
-footer{
+
+footer {
     background: rgba(19, 19, 24, 0.05);
     width: 100%;
 }
-.footer-text{
+
+.footer-text {
     display: flex;
-   padding-bottom: 40px; ;
-   justify-content: center;
+    padding-bottom: 40px;
+    ;
+    justify-content: center;
 }
 
-@media screen and (max-width:600px){
-    .footer-text{
+@media screen and (max-width:600px) {
+    .footer-text {
         flex-direction: column;
         display: flex;
         align-items: center;
-        
+
     }
-    .Social{
+
+    .Social {
         width: 90px;
         height: 24px;
     }
-    footer{
+
+    footer {
         width: 600px;
     }
 }
