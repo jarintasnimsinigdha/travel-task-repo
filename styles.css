@@ -113,7 +113,7 @@ nav ul li a {
     }
 }
 
-@media screen and (min-width:768px) and (max-width:992px) {
+@media screen and (min-width:600px) and (max-width:992px)  {
     .logo {
         width: 200px;
         height: 80px;
@@ -241,7 +241,7 @@ nav ul li a {
     }
 }
 
-@media screen and (min-width:768px) and (max-width:992px) {
+@media screen and (min-width:600px) and (max-width:992px){
     .banner {
         width: 100%;
     }
@@ -321,7 +321,7 @@ list {
     }
 }
 
-@media screen and (min-width:768px) and (max-width:992px) {
+@media screen and (min-width:600px) and (max-width:992px) {
     .popular-tours {
         flex-direction: column;
     }
